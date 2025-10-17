@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #333;
+  color: snow;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  margin: 30px;
+  padding: 15px;
+  border: solid snow 1px;
+  border-radius: 5px;
+  background-color: rgb(30.6, 30.6, 30.6);
+  box-shadow: 2px 2px 24px snow;
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+}
+
+form {
+  margin: 0 50px 0 0;
+}
+
+select {
+  display: block;
+  width: 300px;
+  height: 35px;
+  font-size: 15px;
+  border: none;
+  margin: 10px 0;
+  border-radius: 20px;
+}
+
+button {
+  width: 300px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 20px;
+  border-color: snow;
+  font-weight: bold;
+  background: #922828;
+  transition: background 0.3s;
+}
+button:hover {
+  background: rgb(186.0322580645, 50.9677419355, 50.9677419355);
+  transition: background 0.3s;
+}
+
+.data {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 5px;
+  color: gold;
+}
+
+h3 {
+  font-size: 40px;
+}
+h3 .cripto {
+  color: tomato;
+}
+h3 .moneda {
+  color: lime;
+}
+
+img {
+  width: 170px;
+}
+
+p {
+  font-size: 50px;
+}
+p strong {
+  color: orange;
+}/*# sourceMappingURL=base.css.map */
